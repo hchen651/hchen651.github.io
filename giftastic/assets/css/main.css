@@ -1,0 +1,13 @@
+.image-container{
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.gif-div{
+    float: left;
+    padding: 1em;
+}
+
+.animal-button{
+    margin: 1em;
+}
