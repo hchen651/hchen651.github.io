@@ -6,11 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>About Me</title>
+    <title>Henry Chen - Portfolio</title>
 
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
         integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- CSS -->
     <link rel="stylesheet" href="assets/style/style.css">
@@ -29,13 +30,13 @@
         <nav id="sidebar">
             <div class="sidebar-header">
                 <hr>
-                <h2 style="margin-top:1em">Henry Chen</h2>
+                <img src="assets/images/logo.png" alt="logo" style="width:100%;">
                 <hr>
             </div>
 
             <ul class="list-unstyled components">
                 <li>
-                    <a href="#about">About</a>
+                    <a class="nav-link" href="#about">About</a>
                 </li>
                 <li>
                     <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false"
@@ -51,18 +52,18 @@
                             <a href="#trivia-card">RPG Trivia</a>
                         </li>
                         <li>
-                            <a href="#">Word Guess Game</a>
+                            <a href="#word-guess-card">Word Guess Game</a>
                         </li>
                         <li>
-                            <a href="#">Giftastic</a>
+                            <a href="#giftastic-card">Giftastic</a>
                         </li>
                     </ul>
                 </li>
                 <li>
-                    <a href="#">Resume</a>
+                    <a href="#resume">Resume</a>
                 </li>
                 <li>
-                    <a href="#">Contact</a>
+                    <a href="#contact">Contact</a>
                 </li>
 
             </ul>
@@ -82,9 +83,13 @@
                         data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                         <i class="fas fa-align-justify"></i>
-                    </button>
+                    </button>      
             </nav>
+            
+            <img src="assets/images/prism.png" alt="Top Banner" style="width:100%; height: 20em;">
 
+            <div class="line"></div>
+        
             <h2 id="about">About Me</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
                 dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
@@ -99,6 +104,7 @@
             <div class="line"></div>
 
             <h2 id="portfolio">Portfolio Projects</h2>
+
             <div class="card" style="width: 18rem;" id="questgiver-card">
                 <img class="card-img-top" src="assets/images/questgiver.png" alt="Questgiver!">
                 <div class="card-body">
@@ -129,6 +135,25 @@
                 </div>
             </div>
 
+            <div class="card" style="width: 18rem;" id="word-guess-card">
+                <img class="card-img-top" src="assets/images/triviagame.png" alt="Word Guess">
+                <div class="card-body">
+                    <h5 class="card-title">Word Guess Game</h5>
+                    <p class="card-text">A hangman-esque game in which the user tries to guess the title of a random video game series. </p>
+                    <a href="portfolio/wordguess/index.html" class="btn btn-outline-success">Try It Out!</a>
+                    <a href="https://github.com/hchen651/Word-Guess-Game" class="btn btn-outline-info">View GitHub Repo</a>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;" id="giftastic-card">
+                <img class="card-img-top" src="assets/images/triviagame.png" alt="Giftastic">
+                <div class="card-body">
+                    <h5 class="card-title">Giftastic</h5>
+                    <p class="card-text">A search engine which uses the Giphy API to find GIFs related to the user's input. </p>
+                    <a href="portfolio/giftastic/index.html" class="btn btn-outline-success">Try It Out!</a>
+                    <a href="https://github.com/hchen651/GifTastic" class="btn btn-outline-info">View GitHub Repo</a>
+                </div>
+            </div>
 
             <div class="line"></div>
 
@@ -137,9 +162,9 @@
 
             <div class="line"></div>
 
-            <h2>Contact</h2>
+            <h2 id="Contact">Contact</h2>
             <h6>Email: <a href="mailto:hchen651@gmail.com">hchen651@gmail.com</a></h6>
-            <h6>Phone: (Not comfortable with publicizing this on my site right now.)</h6>
+            <h6>Phone: (Not comfortable with publicizing this right now.)</h6>
         </div>
     </div>
 
@@ -155,6 +180,8 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"
         integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
         crossorigin="anonymous"></script>
+    <!-- Custom JS -->
+    <script src="/assets/javascript/script.js"></script>
 
 </body>
 
