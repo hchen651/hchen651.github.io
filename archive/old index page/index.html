@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Henry Chen - Portfolio</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
+        integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/style/style.css">
+    <!-- Font Awesome JS -->
+    <!-- <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js"
+        integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ"
+        crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js"
+        integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY"
+        crossorigin="anonymous"></script> -->
+</head>
+
+<body>
+    <div class="wrapper">
+        <!-- Sidebar  -->
+        <nav id="sidebar">
+            <div class="sidebar-header">
+                <hr>
+                <img src="assets/images/logo.png" alt="logo" style="width:100%;">
+                <hr>
+            </div>
+
+            <ul class="list-unstyled components">
+                <li>
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li>
+                    <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false"
+                        class="dropdown-toggle">Portfolio Projects</a>
+                    <ul class="collapse list-unstyled" id="pageSubmenu">
+                        <li>
+                            <a href="#questgiver-card">Questgiver!</a>
+                        </li>
+                        <li>
+                            <a href="#crystal-collector-card">Crystal Collector</a>
+                        </li>
+                        <li>
+                            <a href="#trivia-card">RPG Trivia</a>
+                        </li>
+                        <li>
+                            <a href="#word-guess-card">Word Guess Game</a>
+                        </li>
+                        <li>
+                            <a href="#giftastic-card">Giftastic</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#resume">Resume</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+
+            </ul>
+            <div id="sm-button-div">
+                <a href="#" class="fa fa-linkedin"></a>
+                <a href="https://github.com/hchen651" class="fa fa-github"></a>
+            </div>
+
+        </nav>
+
+        <!-- Page Content  -->
+        <div id="content">
+
+            <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fas fa-align-justify"></i>
+                    </button>      
+            </nav> -->
+            
+            <img src="assets/images/prism.png" alt="Top Banner" style="width:100%; height: 20em;">
+
+            <div class="line"></div>
+        
+            <h2 id="about">About Me</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                deserunt mollit anim id est laborum.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                deserunt mollit anim id est laborum.</p>
+            <div class="line"></div>
+
+            <h2 id="portfolio">Portfolio Projects</h2>
+
+            <div class="card" style="width: 18rem;" id="questgiver-card">
+                <img class="card-img-top" src="assets/images/questgiver.png" alt="Questgiver!">
+                <div class="card-body">
+                    <h5 class="card-title">Questgiver!</h5>
+                    <p class="card-text">A game search engine which looks for similar games to that of the user's input using IGDB and Giantbomb's APIs.</p>
+                    <a href="portfolio/questgiver/index.html" class="btn btn-outline-success">Try It Out!</a>
+                    <a href="https://github.com/hchen651/Questgiver" class="btn btn-outline-info">View GitHub Repo</a>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;" id="crystal-collector-card">
+                <img class="card-img-top" src="assets/images/crystalcollector.png" alt="Crystal Collector">
+                <div class="card-body">
+                    <h5 class="card-title">Crystal Collector</h5>
+                    <p class="card-text">A simple JavaScript game in which the user clicks on crystals with hidden values in order to try to reach a random amount.</p>
+                    <a href="portfolio/crystalcollector/index.html" class="btn btn-outline-success">Try It Out!</a>
+                    <a href="https://github.com/hchen651/unit-4-game" class="btn btn-outline-info">View GitHub Repo</a>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;" id="trivia-card">
+                <img class="card-img-top" src="assets/images/triviagame.png" alt="RPG Trivia">
+                <div class="card-body">
+                    <h5 class="card-title">RPG Trivia</h5>
+                    <p class="card-text">A timed JavaScript trivia game which tests the user's knowledge on role-playing games. </p>
+                    <a href="portfolio/triviagame/index.html" class="btn btn-outline-success">Try It Out!</a>
+                    <a href="https://github.com/hchen651/TriviaGame" class="btn btn-outline-info">View GitHub Repo</a>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;" id="word-guess-card">
+                <img class="card-img-top" src="assets/images/triviagame.png" alt="Word Guess">
+                <div class="card-body">
+                    <h5 class="card-title">Word Guess Game</h5>
+                    <p class="card-text">A hangman-esque game in which the user tries to guess the title of a random video game series. </p>
+                    <a href="portfolio/wordguess/index.html" class="btn btn-outline-success">Try It Out!</a>
+                    <a href="https://github.com/hchen651/Word-Guess-Game" class="btn btn-outline-info">View GitHub Repo</a>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;" id="giftastic-card">
+                <img class="card-img-top" src="assets/images/triviagame.png" alt="Giftastic">
+                <div class="card-body">
+                    <h5 class="card-title">Giftastic</h5>
+                    <p class="card-text">A search engine which uses the Giphy API to find GIFs related to the user's input. </p>
+                    <a href="portfolio/giftastic/index.html" class="btn btn-outline-success">Try It Out!</a>
+                    <a href="https://github.com/hchen651/GifTastic" class="btn btn-outline-info">View GitHub Repo</a>
+                </div>
+            </div>
+
+            <div class="line"></div>
+
+            <h2 id="resume">Resume</h2>
+            <p>PDF Link to Resume Here</p>
+
+            <div class="line"></div>
+
+            <h2 id="contact">Contact</h2>
+            <h6>Email: <a href="mailto:hchen651@gmail.com">hchen651@gmail.com</a></h6>
+            <h6>Phone: (Not comfortable with publicizing this right now.)</h6>
+        </div>
+    </div>
+
+    <!-- jQuery CDN - Slim version (=without AJAX) -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <!-- Popper.JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"
+        integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
+        crossorigin="anonymous"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"
+        integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+        crossorigin="anonymous"></script>
+    <!-- Custom JS -->
+    <script src="/assets/javascript/script.js"></script>
+
+</body>
+
+</html>
