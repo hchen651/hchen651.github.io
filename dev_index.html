@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/main.css">
+
+</head>
+
+<body>
+    <nav id="navbar" class="navbar navbar-light sticky-top bg-light">
+        <a class="navbar-brand site-logo" href="#">HENRY CHEN</a>
+        <ul class="nav nav-pills">
+            <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#resume">Resume</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+            </li>
+        </ul>
+    </nav>
+    <div data-spy="scroll" data-target="#navbar" data-offset="0">
+        <div class="container">
+            <!-- Page Content  -->
+            <div id="content">
+                <img src="assets/images/prism.png" alt="Top Banner" style="width:100%; height: 20em;">
+
+                <div class="line"></div>
+
+                <h2 id="about">About Me</h2>
+                <p>Hey. My name is Henry. Usually these little blurbs refer to the writer in the third person, but I'm
+                    not a big fan of that. It's a bit awkward. Let me start off by telling you a bit about myself. I
+                    graduated from St. John's University with a Bachelor's degree in Computer Science and Healthcare
+                    Informatics. I'm a big fan of all things nerdy and techie, whether it be programming, building
+                    computers, fixing computers, gaming, and too many hobbies to list. </p>
+                <p>Coding is my passion. I enjoy hashing out code and finding solutions, and know the satisfaction of
+                    figuring out a difficult problem. My current focus is to succeed as a full stack web developer and
+                    develop scalable web applications which solve real world problems, big or small. You can see some
+                    examples of my work below.</p>
+                <p>Most of my larger projects utilize JavaScript and the MERN (MongoDB, Express, React, Node.js) stack,
+                    but I'm also well-versed in several other languages and frameworks such as Java, SQL, and C++. </p>
+                <div class="line"></div>
+
+                <h2 id="projects">Projects</h2>
+
+                <div class="card" style="width: 18rem;" id="questgiver-card">
+                    <img class="card-img-top" src="assets/images/questgiver.png" alt="Questgiver!">
+                    <div class="card-body">
+                        <h5 class="card-title">Questgiver!</h5>
+                        <p class="card-text">A game search engine which looks for similar games to that of the user's
+                            input using IGDB and Giantbomb's APIs.</p>
+                        <a href="portfolio/questgiver/index.html" class="btn btn-outline-success">Try It Out!</a>
+                        <a href="https://github.com/hchen651/Questgiver" class="btn btn-outline-info">View GitHub
+                            Repo</a>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem;" id="crystal-collector-card">
+                    <img class="card-img-top" src="assets/images/crystalcollector.png" alt="Crystal Collector">
+                    <div class="card-body">
+                        <h5 class="card-title">Crystal Collector</h5>
+                        <p class="card-text">A simple JavaScript game in which the user clicks on crystals with hidden
+                            values in order to try to reach a random amount.</p>
+                        <a href="portfolio/crystalcollector/index.html" class="btn btn-outline-success">Try It Out!</a>
+                        <a href="https://github.com/hchen651/unit-4-game" class="btn btn-outline-info">View GitHub
+                            Repo</a>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem;" id="trivia-card">
+                    <img class="card-img-top" src="assets/images/triviagame.png" alt="RPG Trivia">
+                    <div class="card-body">
+                        <h5 class="card-title">RPG Trivia</h5>
+                        <p class="card-text">A timed JavaScript trivia game which tests the user's knowledge on
+                            role-playing
+                            games. </p>
+                        <a href="portfolio/triviagame/index.html" class="btn btn-outline-success">Try It Out!</a>
+                        <a href="https://github.com/hchen651/TriviaGame" class="btn btn-outline-info">View GitHub
+                            Repo</a>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem;" id="word-guess-card">
+                    <img class="card-img-top" src="assets/images/triviagame.png" alt="Word Guess">
+                    <div class="card-body">
+                        <h5 class="card-title">Word Guess Game</h5>
+                        <p class="card-text">A hangman-esque game in which the user tries to guess the title of a random
+                            video game series. </p>
+                        <a href="portfolio/wordguess/index.html" class="btn btn-outline-success">Try It Out!</a>
+                        <a href="https://github.com/hchen651/Word-Guess-Game" class="btn btn-outline-info">View GitHub
+                            Repo</a>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem;" id="giftastic-card">
+                    <img class="card-img-top" src="assets/images/triviagame.png" alt="Giftastic">
+                    <div class="card-body">
+                        <h5 class="card-title">Giftastic</h5>
+                        <p class="card-text">A search engine which uses the Giphy API to find GIFs related to the user's
+                            input. </p>
+                        <a href="portfolio/giftastic/index.html" class="btn btn-outline-success">Try It Out!</a>
+                        <a href="https://github.com/hchen651/GifTastic" class="btn btn-outline-info">View GitHub
+                            Repo</a>
+                    </div>
+                </div>
+
+                <div class="line"></div>
+
+                <h2 id="resume">Resume</h2>
+                <p>PDF Link to Resume Here</p>
+
+                <div class="line"></div>
+
+                <h2 id="contact">Contact</h2>
+                <h6>Email: <a href="mailto:hchen651@gmail.com">hchen651@gmail.com</a></h6>
+                <h6>Phone: (Not comfortable with publicizing this right now.)</h6>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    </script>
+</body>
+
+</html>
