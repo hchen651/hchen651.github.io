@@ -8,7 +8,6 @@ import Homepage from "./pages/Homepage"
 import Projects from "./pages/Projects"
 import Resume from "./pages/Resume"
 //CSS
-import logo from './logo.svg';
 import './App.css';
 
 export default function App() {
